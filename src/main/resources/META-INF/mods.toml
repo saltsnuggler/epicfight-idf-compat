@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="epicfight_idf_compat"
+version="1.0.0"
+displayName="EpicFight-IDF Compatibility"
+description='''Compatibility addon for Epic Fight and Improved Damage Framework.'''
+
+[[dependencies.epicfight_idf_compat]]
+modId="forge"
+mandatory=true
+versionRange="[43.4.5,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicfight_idf_compat]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2,1.20)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.epicfight_idf_compat]]
+modId="epicfight"
+mandatory=true
+versionRange="[19.5.26,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.epicfight_idf_compat]]
+modId="idf"
+mandatory=true
+versionRange="[0.4.0,)"
+ordering="AFTER"
+side="BOTH"
